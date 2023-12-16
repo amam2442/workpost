@@ -1,0 +1,31 @@
+<div class = 'text'>
+  <h3>
+    work details
+  </h3>
+  <p class = 'detail'>
+    <%= @workpost.content %>
+  </p>
+</div>
+
+<%= render 'sends', sending: @sending %>
+
+
+
+<% if logged_in? %>
+  <%= form_with model: [@workpost, @send] do |f| %>
+    <%= f.text_area :content, placeholder: "コメントをここに" %>
+    <%= f.submit "送信する" %>
+  <% end %>
+  
+
+<% else %>
+  <%= form_with model: [@workpost, @send] do |f| %>
+    <%= f.text_area :content, placeholder: "ログインしたらコメントできます" %>
+  <% end %>
+<% end %>
+
+
+
+
+  
+  

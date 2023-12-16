@@ -1,0 +1,58 @@
+.border{
+  border: solid 1px #454545;
+  border-radius: 50px;
+  text-align: center;
+  background-color: #FFA500; 
+  height: 200px;
+  padding-top: 40px;
+}
+
+.detail {
+  font-size:large;
+}
+
+.btn btn-warning w-100{
+  color:#FFF;
+}
+
+.detaillink {
+  border: solid 1px #454545;
+  display: grid;
+  grid-template-rows:50px 50px;
+}
+
+.text {
+  border: solid 2px #4545;
+  padding-left: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: white ; 
+}
+
+.comment {
+  border: solid 2px;
+  border-radius: 30px;
+  border-color: orange;
+  text-align: center;
+  font-size: x-large;
+  color: #FFA500;
+  padding-top:30px;
+  padding-bottom: 30px;
+  
+}
+
+
+
+.box24 {
+  display: inline-block;
+	border: solid 1px #454545;
+	border-radius:10px;
+	margin-top: 50px;
+}
+
+.send {
+  color: rgb(0, 0, 200);
+}
+
