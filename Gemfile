@@ -48,3 +48,8 @@ gem 'pagy'
 
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
+
+group :production do
+  gem 'pg', '>= 0.18', '< 2.0'
+end
+gem "dockerfile-rails", ">= 1.5", :group => :development

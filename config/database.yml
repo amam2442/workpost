@@ -49,7 +49,10 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
-  database: workposts_production
-  username: workposts
-  password: <%= ENV['WORKPOSTS_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: db.zsoqzguylrspztrakzob.supabase.co
+  database: postgres
+  username: postgres
+  password: <%= ENV['u#Xu2~-cEzUN@(N'] %>
