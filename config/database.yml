@@ -52,8 +52,8 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  host: db.zsoqzguylrspztrakzob.supabase.co
+  host: db.zbvoxuqijorzckbwjkth.supabase.co
   database: postgres
   username: postgres
-  password: <%= ENV['SUPABASE_DATABASE_PASSWORD'] %>
+  password: <%= ENV['u#Xu2~-cEzUN@(N'] %>
 

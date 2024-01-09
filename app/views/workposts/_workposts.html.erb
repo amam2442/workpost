@@ -3,7 +3,6 @@
     <% workposts.each do |workpost| %>
       <div class="col-md-4">
         <div class = 'detaillink'>
-          <h4>work detail</h4>
           <%= workpost.content %>
           <%= link_to '詳細ページ', workpost_path(workpost.id) %>
         </div>

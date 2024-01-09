@@ -1,10 +1,10 @@
-.border{
-  border: solid 1px #454545;
-  border-radius: 50px;
+#description {
+  color: #364e96;/*文字色*/
+  border: solid 3px #364e96;/*線色*/
+  padding: 0.5em;/*文字周りの余白*/
+  border-radius: 0.5em;/*角丸*/
   text-align: center;
-  background-color: #FFA500; 
-  height: 200px;
-  padding-top: 40px;
+  
 }
 
 .detail {
@@ -19,6 +19,7 @@
   border: solid 1px #454545;
   display: grid;
   grid-template-rows:50px 50px;
+  margin-bottom: 20px
 }
 
 .text {
@@ -56,4 +57,6 @@
   color: rgb(0, 0, 200);
 }
 
-
+.all {
+  margin: 30px 20px 30px;
+}

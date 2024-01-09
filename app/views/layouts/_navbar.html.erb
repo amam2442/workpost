@@ -1,7 +1,9 @@
 <header class="mb-4">
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <div class="container-fluid ps-5 pe-5">
-      <a class="navbar-brand" href="/">Workposts</a>
+      <a class="navbar-brand" href="/">Workposts<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+  <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+</svg></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -14,14 +16,14 @@
               <li class="dropdown-item"><%= link_to 'Logout', logout_path, method: :get, class: 'nav-link' %></li>
             </ul>
             <ul class="navbar-nav">
-              <li class="ms-3"><span class="badge bg-danger"><%= link_to '投稿', new_workpost_path, class: 'nav-link' %></span></li>
+              <li class="ms-3"><span class="badge bg-warning"><%= link_to '投稿', new_workpost_path, class: 'nav-link' %></span></li>
             </ul>
           </div>
         <% else %>
           <ul class="navbar-nav">
             <li class="nav-item"><%= link_to 'Signup', signup_path, class: 'nav-link' %></li>
             <li class="nav-item"><%= link_to 'Login', login_path, class: 'nav-link' %></li>
-            <li class="nav-item"><span class="badge bg-danger"><%= link_to '投稿', new_workpost_path, class: 'nav-link' %></span></li>
+            <li class="nav-item"><span class="badge bg-warning"><%= link_to '投稿', new_workpost_path, class: 'nav-link' %></span></li>
           </ul>
         <% end %>
       </div>
